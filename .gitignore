@@ -1,4 +1,5 @@
 .DS_Store
 .svn
 local_db.bin
-
+appengine-generated
+classes
