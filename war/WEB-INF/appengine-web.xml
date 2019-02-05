@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+
+	<!-- アプリケーションとバージョンの定義 -->
+	<application>wordsyoumet</application>
+	<version>prototype</version>
+	<!-- for building index -->
+	<!-- <version>temp</version> -->
+
+	<!-- スタティックファイルのルートディレクトリの定義 -->
+	<public-root>/static</public-root>
+
+	<!-- エラーコンテンツのカスタマイズ -->
+	<!--
+	<static-error-handlers>
+		<handler file="/static/error/default.html"/>
+		<handler file="/static/error/timeout.html" error-code="timeout"/>
+		<handler file="/static/error/over_quota.html" error-code="over_quota"/>
+		<handler file="/static/error/dos_api_denial.html" error-code="dos_api_denial"/>
+	</static-error-handlers>
+	-->
+	
+	<!-- プリコンパイルの有効化 -->	
+	<precompilation-enabled>true</precompilation-enabled>
+	
+	<system-properties>
+	    <property name="slim3.hotReloading" value="true"/>
+	    <!--
+        <property name="slim3.datastoreDeadline" value="8"/>
+        <property name="slim3.uploadSizeMax" value="1000000"/>
+        <property name="slim3.uploadFileSizeMax" value="100000"/>
+        -->
+	    <property name="java.util.logging.config.file" value="WEB-INF/classes/logging.properties"/>
+	</system-properties>
+
+	<!-- セッションの可否 -->
+	<sessions-enabled>false</sessions-enabled>
+
+	<!-- スレッドセーフの可否 -->
+	<threadsafe>true</threadsafe>
+
+</appengine-web-app>

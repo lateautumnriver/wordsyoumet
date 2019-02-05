@@ -1,0 +1,119 @@
+/** wordsyoumet layout-standard.css */
+body {
+    min-width: 400px;
+    min-height: 300px;
+    margin:0;
+    padding:0;
+}
+
+header.page {
+    margin-bottom:5px;
+    display: box;    display: -moz-box;    display: -webkit-box;
+    width:100%;
+}
+
+header.page h1 {font-size:1.5em; margin:0; margin-top:5px; margin-left:5px;}
+header.page h1 img {width:40px; height:30px; margin:0 10px 0 5px;margin-bottom:-5px;}
+
+header.page h1 {width:100%;}
+header.page h1 {box-flex:1.0; -moz-box-flex:1.0; -webkit-box-flex:1.0;}
+header.page div.account {margin:5px 10px 5px 0;}
+header.page div.account p {margin:5px 10px;}
+
+#content {
+    margin:0;
+    padding:10px;
+}
+div.words div.topic {
+    margin:10px;
+}
+div.words div.topic h1 {
+    margin:0;
+}
+footer.page div.breadcrumb {
+    margin:0;
+}
+footer.page div.breadcrumb ul {
+    margin:10px;
+    margin-right:50px;
+    padding:0;
+    list-style-type:none;
+}
+footer.page div.breadcrumb ul li {
+    display:inline;
+    padding: 5px;
+}
+footer.page div.breadcrumb ul li:before {
+    padding:0 5px;
+    content:">";
+}
+footer.page p#copyright {float:right; margin:10px;}
+
+div.user {margin:0;}
+div.user p {
+    margin:0;
+}
+div.user p img {
+    width:20px;
+    height:20px;
+    margin-bottom:-5px;
+}
+div.user p * {
+    margin:0 10px 0 0;
+}
+
+div.words > ul {
+    list-style-type:none;
+    padding:0;
+}
+div.words > ul > li {
+    margin:0;
+    padding:0;
+}
+section.words {
+    max-width:400px;
+    margin:0 10px;
+    padding:15px 10px;
+}
+section.words div.user {
+    padding:10px;
+}
+section.words div.user p.description {
+    margin-top:10px;
+    padding-left:30px;
+    line-height:1.5em;
+}
+section.words article {
+    padding:0 10px;
+}
+section.words article header,
+section.words article div.user {
+    padding:15px;
+}
+section.words article header {
+    margin-bottom:30px;
+    border-radius: 15px;    -moz-border-radius: 15px;    -webkit-border-radius: 15px;
+}
+section.words article header h1 {
+    line-height:1.5em;
+    margin:10px 0 30px;
+}
+section.words article header div.author {
+    padding-right:10px;
+    text-align:right;
+}
+section.words article header div.author * {
+    display:block;
+    margin-top:5px;
+}
+section.words article header div.author cite:before {
+    content: "from: ";
+}
+section.words article footer div.social ul {
+    padding-left:20px;
+    list-style-type:none;
+    display: box;    display: -moz-box;    display: -webkit-box;
+}
+section.words article footer div.social ul li {
+    margin:10px;
+}

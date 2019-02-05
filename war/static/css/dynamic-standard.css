@@ -1,0 +1,4 @@
+/** wordsyoumet dynamic-standard.css */
+div.words > ul.slide > li:nth-child(n+2) {
+    display:none;
+}

@@ -1,0 +1,4 @@
+/** wordsyoumet common.css */
+section, article, aside, hgroup, header, footer, nav, figure {
+    display: block;
+}

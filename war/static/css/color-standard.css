@@ -1,0 +1,90 @@
+/** wordsyoumet color-standard.css */
+body {
+    background-color: #333;
+    color: #ccc;
+}
+
+#content {
+    background-color: #996;
+    color: #333;
+    border-top: 1px solid #666;
+}
+/*
+  section.words {
+    background-color: #666;
+    color: white;
+}*/
+
+/*
+header.page a:link,
+header.page a:hover,
+header.page a:visited,
+header.page a:active {color:#933;}
+*/
+a:link,
+a:hover,
+a:visited,
+a:active {color:#ccc;}
+
+header.page h1 a:link,
+header.page h1 a:hover,
+header.page h1 a:visited,
+header.page h1 a:active {color:#933;}
+
+header.page div.account a:link,
+header.page div.account a:hover,
+header.page div.account a:visited,
+header.page div.account a:active {color:#ccc;}
+/*header.page div.account a:hover {color:#933;}*/
+
+footer.page a:link,
+footer.page a:hover,
+footer.page a:visited,
+footer.page a:active {color:#ccc;}
+
+footer.page a.sitename:link,
+footer.page a.sitename:hover,
+footer.page a.sitename:visited,
+footer.page a.sitename:active {color:#933;}
+
+section.words div.user {
+    color:#333;
+}
+section.words div.user a:link,
+section.words div.user a:visited,
+section.words div.user a:active {
+    color:#333;
+}
+section.words div.user a:hover {
+    color:#933;
+}
+section.words article > header {
+/*
+    color:#933;
+    background-color:#033;
+    border:5px solid #933;
+*/
+/*
+    color:#933;
+    background-color:#ccc;
+    border:5px solid #663;
+*/
+    color:#922;
+    background-color:#ddd;
+    border:5px solid #663;
+
+}
+section.words article > header div.author {
+    color: #333;
+}
+div.words > ul.slide > li section {
+    border-top:5px double #333;
+/*
+    border-top:5px dotted #333;
+    border-bottom:5px dotted #333;
+*/
+/*
+    border-left:5px double #333;
+    border-right:5px double #333;
+*/
+}

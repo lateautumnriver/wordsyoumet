@@ -1,0 +1,13 @@
+/**
+ * words you met
+ * copyright All rights reserved.
+ */
+.wordsyoumet {margin-bottom: 3em;}
+.wordsyoumet div.author cite:before {content:"from: ";}
+.wordsyoumet div.author {margin-bottom:0.5em;}
+.wordsyoumet span.author {display:block;}
+footer {margin-top:1em;}
+.citelead:after {content:' : ';}
+.wordsyoumet h1{font-size:1.2em;}
+.message p.sender{text-align:right;}
+.message p.sender span{font-size:small;}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<title>Words You Met: Encourage Everyone</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/themes/encourage.min.css" />
+	<link rel="stylesheet" href="/css/jquery.mobile.structure-1.1.0.min.css" />
+	<link rel="stylesheet" href="/css/wordsyoumet.css" />
+	<script src="/js/jquery-1.7.1.min.js"></script>
+	<script src="/js/jquery.mobile-1.1.0.min.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="c">
+		<header data-role="header" data-theme="a">
+			<h1>Words You Met</h1>
+			<h2>Encourage Everyone</h2><!-- TODO:h1とh2は1行に。ユーザ名などが入りきらない場合はh2を削るか。 -->
+			<!-- TODO -->
+			<!-- ヘッダ部に以下のいずれかを表示する。
+			１．ユーザ名、マイページへのリンク
+			２．ログインリンク
+			 -->
+		</header>
+		<div data-role="content">
+			<div class="lead">
+				<p>Please input closed-account and password.</p>
+			</div>
+			<div id="closed-service-login">
+				<form action="/closed/login" method="POST" data-ajax="false">
+					<fieldset data-role="fieldcontain">
+						<label for="closed-service-account">account</label>
+						<input type="text" id="closed-service-account" name="closed-service-account" value="" placeholder="account" required="required" data-mini="true" />
+						<label for="closed-service-password">password</label>
+						<input type="password" id="closed-service-password" name="closed-service-password" value="" placeholder="password" required="required" data-mini="true" />
+						<input type="submit" value="OK" data-mini="true" />
+					</fieldset>
+				</form>
+			</div>
+		  <!--
+			<div class="quote">
+				<q>The universe is made up of stories, not atoms.</q>
+				<p><a rel="author">Dr. ティナ・シーリグ</a></p>
+				<p><span class="citelead">出典</span><cite>NHK　スタンフォード白熱教室</cite></p>
+				<a href="/restricted.html" data-role="button" data-mini="true" data-inline="true">ログイン</a>
+			</div>
+		 -->
+		</div>
+		<footer data-role="footer">
+		</footer>
+	</div>
+</body>
+</html>

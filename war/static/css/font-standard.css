@@ -1,0 +1,28 @@
+/** wordsyoumet font-standard.css */
+body {
+    font-family:'Times New Roman',serif;
+}
+.sitename {
+    font-weight:bold;
+}
+a.asbutton {
+/*    font-family:monospace,sans-serif;*/
+}
+footer.page div.breadcrumb ul li {
+    font-family:'Century Gothic',sans-serif;
+    font-size:0.8em;
+}
+footer.page div.breadcrumb ul li:before {
+    font-family:monospace,sans-serif;
+}
+section.words div.user {
+    font-family:monospace,sans-serif;
+    font-size:0.9em;
+}
+section.words div.user p.description {
+    font-family:'Century Gothic',sans-serif;
+}
+div.words div.topic h1 {
+    font-style:italic;
+    font-size:2em;
+}
